@@ -53,16 +53,16 @@
       <div id="navbar" class="collapse navbar-collapse">
         <ul class="nav navbar-nav">
           
-						<li typeof="sioc:Page" about="/get-started.html" class="">
-							<a href="/get-started.html" property="dc:title">Get Started</a>
+						<li typeof="sioc:Page" about="/Durandal/get-started" class="">
+							<a href="/Durandal/get-started" property="dc:title">Get Started</a>
 						</li>
 					
-						<li typeof="sioc:Page" about="/downloads.html" class="">
-							<a href="/downloads.html" property="dc:title">Downloads</a>
+						<li typeof="sioc:Page" about="/Durandal/downloads" class="">
+							<a href="/Durandal/downloads" property="dc:title">Downloads</a>
 						</li>
 					
-						<li typeof="sioc:Page" about="/docs.html" class="">
-							<a href="/docs.html" property="dc:title">Docs</a>
+						<li typeof="sioc:Page" about="/Durandal/docs" class="">
+							<a href="/Durandal/docs" property="dc:title">Docs</a>
 						</li>
 					
         </ul>
@@ -81,7 +81,7 @@
 <p>This article describes using the <code>gulp-durandal</code> plugin for building Durandal apps with <a href="http://gulpjs.com/">Gulp</a>.</p>
 </blockquote>
 <p>Both scripts and views can be compiled into a single output file with this plugin. There is no double maintenance of path mapping required. The plugin allows various code layouts (bower, app.net etc), using the paths already configured in your <code>main.js</code> file.</p>
-<p>There&#39;s no need to be an expert with <a href="http://requirejs.org/docs/optimization.html">r.js&#39;s 60+ options</a>. In many cases, the following should be enough:</p>
+<p>There&#39;s no need to be an expert with <a href="http://requirejs.org/docs/optimization">r.js&#39;s 60+ options</a>. In many cases, the following should be enough:</p>
 <pre class="prettyprint linenums lang-javascript">gulp.task(&#39;durandal&#39;, function(){
    durandal()
       .pipe(gulp.dest(&#39;dir/to/save/the/output&#39;));
